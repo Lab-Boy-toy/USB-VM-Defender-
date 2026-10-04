@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# PyCharm / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# SSH PRIVATE KEYS
+usb_sandbox_key
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Keep public SSH keys if needed
+!*.pub
+
+# VirtualBox VM files
+*.vdi
+*.vmdk
+*.vhd
+*.vbox
+*.vbox-prev
+*.sav
+
+# Large VM appliance files
+*.ova
+*.ovf
+
+# Installer build output
+Output/
+Installer/Output/
+
+# Windows generated files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Executables generated during development
+
+# DLLs and debug symbols
+*.dll
+*.pdb
+
+# Python packaging
+*.egg-info/
+.eggs/
